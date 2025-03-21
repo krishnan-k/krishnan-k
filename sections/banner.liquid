@@ -27,7 +27,10 @@
 {% liquid
   assign full_width = '100vw'
   assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
-  assign fetch_priority = 'high'
+  assign fetch_priority = 'auto'
+  if section.index == 1
+    assign fetch_priority = 'high'
+  endif
 %}
 
 <div id="Banner-{{ section.id }}" class="banner banner--{{ section.settings.image_height }}">
