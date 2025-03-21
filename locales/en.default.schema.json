@@ -613,8 +613,23 @@
     "banner": {
       "name": "Banner",
       "settings": {
-        "image":{
-          "label":"Image"
+        "image": {
+          "label": "Image"
+        },
+        "image_height": {
+          "label": "Height",
+          "options__1": {
+            "label": "Adapt to first image"
+          },
+          "options__2": {
+            "label": "Small"
+          },
+          "options__3": {
+            "label": "Medium"
+          },
+          "options__4": {
+            "label": "Large"
+          },
         }
       },
       "presets": {
