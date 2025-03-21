@@ -613,7 +613,9 @@
     "banner": {
       "name": "Banner",
       "settings": {
-        
+        "image":{
+          "label":"Image"
+        }
       },
       "presets": {
         "name": "Banner"
