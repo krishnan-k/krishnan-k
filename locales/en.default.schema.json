@@ -612,7 +612,9 @@
     },
     "banner": {
       "name": "Banner",
-      "settings": {},
+      "settings": {
+        
+      },
       "presets": {
         "name": "Banner"
       }
