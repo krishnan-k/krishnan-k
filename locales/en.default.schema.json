@@ -633,17 +633,15 @@
         }
       },
       "blocks": {
-        "settings": {
-          "heading": {
-            "name": "Heading",
-            "settings": {
-              "heading": {
-                "label": "Heading",
-                "default": "Image banner"
-              }
+        "heading": {
+          "name": "Heading",
+          "settings": {
+            "heading": {
+              "label": "Heading",
+              "default": "Image banner"
             }
           }
-        }
+        },
       },
       "presets": {
         "name": "Banner"
