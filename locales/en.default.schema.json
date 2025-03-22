@@ -611,7 +611,7 @@
       }
     },
     "banner": {
-      "name": "Banner",
+      "name": "Banner Image",
       "settings": {
         "image": {
           "label": "Image"
