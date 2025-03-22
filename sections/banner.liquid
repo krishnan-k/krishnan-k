@@ -61,7 +61,7 @@
   {%- endif -%}
 
   <div class="banner__content banner__content--{{ section.settings.text_content_position }} {% if section.settings.show_text_background == false %} text_background {% endif %}">
-    <div class="banner__box content-container {{ section.settings.color_scheme }}">
+    <div class="banner__box content-container color--{{ section.settings.color_scheme }} gradient">
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'heading' %}
