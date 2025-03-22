@@ -15,7 +15,8 @@
         "heading_dEJAi7": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner"
+            "heading": "Image banner",
+            "heading_size": "h0"
           }
         }
       },
@@ -25,66 +26,12 @@
       "settings": {
         "image": "shopify://shop_images/male-model-posing-outdoors.jpg",
         "image_height": "large",
-        "show_text_background": false,
+        "show_text_background": true,
         "color_scheme": ""
-      }
-    },
-    "slideshow_w7kjTc": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_R3ED6F": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        },
-        "slide_dq7GK9": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_R3ED6F",
-        "slide_dq7GK9"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
   "order": [
-    "banner_7axTfr",
-    "slideshow_w7kjTc"
+    "banner_7axTfr"
   ]
 }
