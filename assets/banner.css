@@ -104,4 +104,7 @@
     align-items: flex-end;
     justify-content: flex-end;
   }
+  .banner__content {
+    padding: 5rem;
+}
 }
