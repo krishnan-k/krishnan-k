@@ -629,14 +629,19 @@
           },
           "options__4": {
             "label": "Large"
-          },
+          }
         }
       },
-      "blocks":{
-        "settings":{
-          "heading":{
-            "label":"Heading",
-            "default":"Banner section"
+      "blocks": {
+        "settings": {
+          "heading": {
+            "name": "Heading",
+            "settings": {
+              "heading": {
+                "label": "Heading",
+                "default": "Image banner"
+              }
+            }
           }
         }
       },
