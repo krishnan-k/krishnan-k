@@ -631,7 +631,9 @@
             "label": "Large"
           }
         },
-        "content":"Content",
+        "content": {
+          "content": "Content"
+        },
         "show_text_background":{
           "label":"Text container"
         }
