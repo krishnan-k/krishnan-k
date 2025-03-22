@@ -632,6 +632,14 @@
           },
         }
       },
+      "blocks":{
+        "settings":{
+          "heading":{
+            "label":"Heading",
+            "default":"Banner section"
+          }
+        }
+      },
       "presets": {
         "name": "Banner"
       }
