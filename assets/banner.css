@@ -13,4 +13,7 @@
   .banner__section.banner--small:not(.banner--adapt){
     min-height: 45rem;
   }
+  .banner__section.banner--medium:not(.banner--adapt){
+    min-height: 58rem;
+  }
 }
