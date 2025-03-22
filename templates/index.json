@@ -29,10 +29,10 @@
         "color_scheme": ""
       }
     },
-    "slideshow_nXgWyf": {
+    "slideshow_w7kjTc": {
       "type": "slideshow",
       "blocks": {
-        "slide_3CRBry": {
+        "slide_R3ED6F": {
           "type": "slide",
           "settings": {
             "image_overlay_opacity": 0,
@@ -49,7 +49,7 @@
             "color_scheme": ""
           }
         },
-        "slide_7tpzzz": {
+        "slide_dq7GK9": {
           "type": "slide",
           "settings": {
             "image_overlay_opacity": 0,
@@ -68,8 +68,8 @@
         }
       },
       "block_order": [
-        "slide_3CRBry",
-        "slide_7tpzzz"
+        "slide_R3ED6F",
+        "slide_dq7GK9"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -85,6 +85,6 @@
   },
   "order": [
     "banner_7axTfr",
-    "slideshow_nXgWyf"
+    "slideshow_w7kjTc"
   ]
 }
