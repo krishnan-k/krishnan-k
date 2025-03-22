@@ -13,7 +13,7 @@
       "type": "banner",
       "settings": {
         "image": "shopify://shop_images/male-model-posing-outdoors.jpg",
-        "image_height": "adapt"
+        "image_height": "small"
       }
     }
   },
