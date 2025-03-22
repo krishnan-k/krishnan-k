@@ -28,7 +28,7 @@
         "image_height": "large",
         "show_text_background": true,
         "color_scheme": "",
-        "text_content_position": "bottom-right"
+        "text_content_position": "bottom-left"
       }
     }
   },
