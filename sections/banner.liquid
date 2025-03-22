@@ -62,7 +62,12 @@
 
   <div class="banner__content banner__content--{{ section.settings.text_content_position }}">
     <div class="banner__box content-container">
-      
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'heading' %}
+          
+        {% endcase %}
+      {% endfor %}
     </div>
   </div>
 </div>
