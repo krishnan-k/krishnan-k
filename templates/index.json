@@ -25,7 +25,7 @@
       "settings": {
         "image": "shopify://shop_images/male-model-posing-outdoors.jpg",
         "image_height": "large",
-        "show_text_background": true
+        "show_text_background": false
       }
     }
   },
