@@ -11,6 +11,17 @@
   "sections": {
     "banner_7axTfr": {
       "type": "banner",
+      "blocks": {
+        "heading_dEJAi7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dEJAi7"
+      ],
       "settings": {
         "image": "shopify://shop_images/male-model-posing-outdoors.jpg",
         "image_height": "large"
