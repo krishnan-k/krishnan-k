@@ -630,6 +630,9 @@
           "options__4": {
             "label": "Large"
           }
+        },
+        "show_text_background":{
+          "label":"Text container"
         }
       },
       "blocks": {
