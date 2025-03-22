@@ -68,6 +68,10 @@
             <h2 class="banner__heading inline-richtext {{ section.settings.heading_size }}">
               {{ block.settings.heading }}
             </h2>
+          {% when 'text' %}
+            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <p class="decription">{{ block.settings.text }}</p>
+            </div>
         {% endcase %}
       {% endfor %}
     </div>
