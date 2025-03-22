@@ -12,29 +12,12 @@
     "banner_7axTfr": {
       "type": "banner",
       "settings": {
-        "image": "shopify://shop_images/putting-on-your-shoes_925x_f4184c9e-c505-498c-8c43-6c1e9545a859.jpg",
+        "image": "shopify://shop_images/male-model-posing-outdoors.jpg",
         "image_height": "adapt"
-      }
-    },
-    "image_banner_HHH69P": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/putting-on-your-shoes_925x_f4184c9e-c505-498c-8c43-6c1e9545a859.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
       }
     }
   },
   "order": [
-    "banner_7axTfr",
-    "image_banner_HHH69P"
+    "banner_7axTfr"
   ]
 }
