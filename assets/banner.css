@@ -17,6 +17,11 @@
     justify-content: center;
     z-index: 2;
 }
+@media screen and (min-width: 1400px){
+  .banner__section .banner__content .banner__box {
+    max-width: 90rem;
+  }
+}
 @media screen and (min-width: 750px) {
   .banner.banner__section {
     flex-direction: row;
