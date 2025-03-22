@@ -10,4 +10,7 @@
   .customize__banner.banner__media {
     height: 100%;
   }
+  .banner__section.banner--small{
+    min-height: 45rem;
+  }
 }
