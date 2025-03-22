@@ -66,7 +66,7 @@
         {% case block.type %}
           {% when 'heading' %}
             <h2 class="banner__heading inline-richtext {{ section.settings.heading_size }}">
-              {{ section.settings.heading }}
+              {{ block.settings.heading }}
             </h2>
         {% endcase %}
       {% endfor %}
