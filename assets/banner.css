@@ -8,6 +8,13 @@
 .text_background .banner__box {
   background: transparent;
 }
+.banner.banner__section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    z-index: auto;
+    isolation: isolate;
+}
 .customize__banner + .banner__content {
   padding: 0;
   display: flex;
