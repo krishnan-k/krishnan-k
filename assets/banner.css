@@ -16,4 +16,7 @@
   .banner__section.banner--medium:not(.banner--adapt){
     min-height: 58rem;
   }
+  .banner__section.banner--large:not(.banner--adapt){
+    min-height: 75rem;
+  }
 }
