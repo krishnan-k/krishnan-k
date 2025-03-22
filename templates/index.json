@@ -27,59 +27,12 @@
         "image": "shopify://shop_images/male-model-posing-outdoors.jpg",
         "image_height": "large",
         "show_text_background": true,
-        "color_scheme": ""
-      }
-    },
-    "image_banner_BCEe7R": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_CVFgfR": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_AkGMtP": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_UdeBUw": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_CVFgfR",
-        "text_AkGMtP",
-        "buttons_UdeBUw"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "top-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
         "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "text_content_position": "middle-center"
       }
     }
   },
   "order": [
-    "banner_7axTfr",
-    "image_banner_BCEe7R"
+    "banner_7axTfr"
   ]
 }
