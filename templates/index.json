@@ -29,7 +29,7 @@
         "buttons_tmBjkj": {
           "type": "buttons",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Button labelsd",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
