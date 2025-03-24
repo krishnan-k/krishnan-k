@@ -97,7 +97,7 @@
   </div>
 </div>
  {% if section.settings.bottom_heading != blank %}
-    <div class="bottom_banner_content background--{{ section.settings.background }} color--{{ section.settings.text_color }} text--align--center">
+    <div class="bottom_banner_content background--{{ section.settings.color_bg }} color--{{ section.settings.text_color }} text--align--center">
       {{ section.settings.bottom_heading }}
     </div>
   {% endif %}
@@ -251,6 +251,18 @@
           "label": "t:sections.banner.settings.heading.label",
       "default":"Text here"
         },
+    {
+            "type": "color",
+            "id": "text_color",
+            "label": "t:settings_schema.colors.settings.background.label",
+            "default": "#FFFFFF"
+          },
+          {
+            "type": "color_background",
+            "id": "color_bg",
+            "label": "t:settings_schema.colors.settings.background_gradient.label",
+            "info": "t:settings_schema.colors.settings.background_gradient.info"
+          },
   ],
   "blocks": [
     {
