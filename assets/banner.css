@@ -45,6 +45,9 @@
 .banner__text{
     margin-top: 2rem;
 }
+.banner__buttons a {
+    text-transform: uppercase;
+}
 @media screen and (min-width: 1400px) {
   .banner__section .banner__content .banner__box {
     max-width: 90rem;
