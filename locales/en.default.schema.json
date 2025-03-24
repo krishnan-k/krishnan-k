@@ -714,6 +714,9 @@
         "buttons": {
           "name": "Buttons",
           "settings": {
+            "header": {
+              "content": "Button"
+            },
             "button_label": {
               "label": "Label",
               "info": "Leave blank to hide",
@@ -721,6 +724,9 @@
             },
             "button_link": {
               "label": "Link"
+            },
+            "button_style_secondary": {
+              "label": "Outline style"
             },
           }
         }
