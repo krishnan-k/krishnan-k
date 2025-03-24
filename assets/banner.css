@@ -45,6 +45,9 @@
 .banner__text{
     margin-top: 2rem;
 }
+.banner__buttons {
+    margin-top: 3rem;
+}
 .banner__buttons a {
     text-transform: uppercase;
 }
