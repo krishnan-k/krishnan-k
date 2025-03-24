@@ -679,15 +679,17 @@
           },
           "label": "Text alignment"
         },
-        "button": {
-          "name": "Button",
-          "settings": {
-            "header": {
-              "content": "Button"
+        "button_label": {
+              "label": "Label",
+              "info": "Leave blank to hide",
+              "default": "Button label"
             },
-            
-          }
-        }
+            "button_link": {
+              "label": "Link"
+            },
+            "button_style_secondary": {
+              "label": "Outline style"
+            },
       },
       "blocks": {
         "heading": {
