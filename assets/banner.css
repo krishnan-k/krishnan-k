@@ -1,13 +1,15 @@
 .customize__banner.banner__media {
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
+
 .text_background .banner__box {
-  background: transparent;
+    background: transparent;
 }
+
 .banner.banner__section {
     display: flex;
     position: relative;
@@ -15,15 +17,17 @@
     z-index: auto;
     isolation: isolate;
 }
-.customize__banner + .banner__content {
-  padding: 0;
-  display: flex;
-  position: relative;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
+
+.customize__banner+.banner__content {
+    padding: 0;
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
 }
+
 .banner__section .banner__content .banner__box {
     padding: 4rem;
     position: relative;
@@ -33,113 +37,132 @@
     word-wrap: break-word;
     z-index: 1;
 }
-.text--align--right{
-  text-align: right;
+
+.text--align--right {
+    text-align: right;
 }
-.text--align--left{
-  text-align: left;
+
+.text--align--left {
+    text-align: left;
 }
-.text--align--center{
-  text-align: center;
+
+.text--align--center {
+    text-align: center;
 }
-.banner__text{
+
+.banner__text {
     margin-top: 2rem;
 }
+
 .banner__buttons {
     margin-top: 3rem;
 }
+
 .banner__buttons a {
     text-transform: uppercase;
 }
+
 .banner__buttons a svg {
     margin-left: 2rem;
 }
+
 @media screen and (min-width: 1400px) {
-  .banner__section .banner__content .banner__box {
-    max-width: 90rem;
-  }
+    .banner__section .banner__content .banner__box {
+        max-width: 90rem;
+    }
 }
+
 @media screen and (min-width: 750px) {
-  .banner__section .banner__content .banner__box {
-    width: auto;
-    max-width: 71rem;
-    min-width: 45rem;
-  }
-  .banner.banner__section {
-    flex-direction: row;
-  }
-  .customize__banner.banner__media {
-    height: 100%;
-  }
-  .banner__section.banner--small:not(.banner--adapt) {
-    min-height: 45rem;
-  }
-  .banner__section.banner--medium:not(.banner--adapt) {
-    min-height: 58rem;
-  }
-  .banner__section.banner--large:not(.banner--adapt) {
-    min-height: 75rem;
-  }
-  .banner__section .banner__content.banner__content--top-left {
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
+    .banner__section .banner__content .banner__box {
+        width: auto;
+        max-width: 71rem;
+        min-width: 45rem;
+    }
 
-  .banner__section .banner__content.banner__content--top-center {
-    align-items: flex-start;
-    justify-content: center;
-  }
+    .banner.banner__section {
+        flex-direction: row;
+    }
 
-  .banner__section .banner__content.banner__content--top-right {
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
+    .customize__banner.banner__media {
+        height: 100%;
+    }
 
-  .banner__section .banner__content.banner__content--middle-left {
-    align-items: center;
-    justify-content: flex-start;
-  }
+    .banner__section.banner--small:not(.banner--adapt) {
+        min-height: 45rem;
+    }
 
-  .banner__section .banner__content.banner__content--middle-center {
-    align-items: center;
-    justify-content: center;
-  }
+    .banner__section.banner--medium:not(.banner--adapt) {
+        min-height: 58rem;
+    }
 
-  .banner__section .banner__content.banner__content--middle-right {
-    align-items: center;
-    justify-content: flex-end;
-  }
+    .banner__section.banner--large:not(.banner--adapt) {
+        min-height: 75rem;
+    }
 
-  .banner__section .banner__content.banner__content--bottom-left {
-    align-items: flex-end;
-    justify-content: flex-start;
-  }
+    .banner__section .banner__content.banner__content--top-left {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
 
-  .banner__section .banner__content.banner__content--bottom-center {
-    align-items: flex-end;
-    justify-content: center;
-  }
+    .banner__section .banner__content.banner__content--top-center {
+        align-items: flex-start;
+        justify-content: center;
+    }
 
-  .banner__section .banner__content.banner__content--bottom-right {
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
-  .customize__banner + .banner__content{
-    padding: 5rem;
-}
+    .banner__section .banner__content.banner__content--top-right {
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    .banner__section .banner__content.banner__content--middle-left {
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .banner__section .banner__content.banner__content--middle-center {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__section .banner__content.banner__content--middle-right {
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .banner__section .banner__content.banner__content--bottom-left {
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+
+    .banner__section .banner__content.banner__content--bottom-center {
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .banner__section .banner__content.banner__content--bottom-right {
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .customize__banner+.banner__content {
+        padding: 5rem;
+    }
 }
 
 @media screen and (max-width: 749px) {
-  .banner__section.banner--small:not(.banner--adapt) {
-    min-height: 30rem;
-  }
-  .banner__section.banner--medium:not(.banner--adapt) {
-    min-height: 40rem;
-  }
-  .banner__section.banner--large:not(.banner--adapt) {
-    min-height: 50rem;
-  }
-  .banner.banner__section{
-    justify-content: end;
-  }
+    .banner__section.banner--small:not(.banner--adapt) {
+        min-height: 30rem;
+    }
+
+    .banner__section.banner--medium:not(.banner--adapt) {
+        min-height: 40rem;
+    }
+
+    .banner__section.banner--large:not(.banner--adapt) {
+        min-height: 50rem;
+    }
+
+    .section_banner .banner.banner__section {
+        justify-content: end;
+    }
 }
