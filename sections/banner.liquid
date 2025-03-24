@@ -97,7 +97,9 @@
   </div>
 
   {% if section.settings.bottom_heading != blank %}
-    <div class="bottom_banner_content"></div>
+    <div class="bottom_banner_content">
+      {{ section.settings.bottom_heading }}
+    </div>
   {% endif %}
 </div>
 
