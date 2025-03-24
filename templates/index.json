@@ -42,8 +42,8 @@
         "button_link": "shopify://collections",
         "button_style_secondary": false,
         "bottom_heading": "sustainable, ethically made clothes in sizes xxs to 6xl",
-        "text_color": "#ff1313",
-        "color_bg": "#e92d2d"
+        "text_color": "#000000",
+        "color_bg": "#f5f5f5"
       }
     }
   },
