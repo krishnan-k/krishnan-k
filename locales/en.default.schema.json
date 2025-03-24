@@ -711,6 +711,19 @@
             }
           }
         },
+        "buttons": {
+          "name": "Buttons",
+          "settings": {
+            "button_label": {
+              "label": "Label",
+              "info": "Leave blank to hide",
+              "default": "Button label"
+            },
+            "button_link": {
+              "label": "Link"
+            },
+          }
+        }
       },
       "presets": {
         "name": "Banner"
