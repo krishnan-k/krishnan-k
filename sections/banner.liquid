@@ -95,6 +95,10 @@
       </div>
     </div>
   </div>
+
+  {% if section.settings.bottom_heading != blank %}
+    <div class="bottom_banner_content"></div>
+  {% endif %}
 </div>
 
 {% schema %}
@@ -242,7 +246,7 @@
     },
     {
           "type": "inline_richtext",
-          "id": "heading",
+          "id": "bottom_heading",
           "label": "t:sections.banner.settings.heading.label",
       "default":"Text here"
         },
