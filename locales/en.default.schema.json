@@ -632,7 +632,10 @@
           }
         },
         "content": {
-          "content": "Content"
+          "content": "Text content"
+        },
+        "button": {
+          "content": "Button content"
         },
         "show_text_background":{
           "label":"Text container"
