@@ -168,4 +168,7 @@
         justify-content: end;
       height: 100%;
     }
+  .banner__section .banner__content .banner__box{
+    padding: 2rem;
+  }
 }
