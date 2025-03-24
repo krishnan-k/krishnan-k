@@ -711,8 +711,8 @@
             }
           }
         },
-        "buttons": {
-          "name": "Buttons",
+        "button": {
+          "name": "Button",
           "settings": {
             "header": {
               "content": "Button"
