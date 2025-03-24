@@ -51,6 +51,9 @@
 .banner__buttons a {
     text-transform: uppercase;
 }
+.banner__buttons a svg {
+    margin-left: 2rem;
+}
 @media screen and (min-width: 1400px) {
   .banner__section .banner__content .banner__box {
     max-width: 90rem;
