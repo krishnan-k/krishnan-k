@@ -216,7 +216,40 @@
           "label": "t:sections.all.heading_size.label"
         }
       ]
-    }
+    },
+    {
+      "type": "text",
+      "name": "t:sections.banner.blocks.text.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "default": "t:sections.banner.blocks.text.settings.text.default",
+          "label": "t:sections.banner.blocks.text.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.banner.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.banner.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "t:sections.banner.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.banner.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
   ],
   "presets": [
     {
