@@ -25,20 +25,11 @@
             "text": "Discover Joy: Your Ultimate Holiday Gift Destination. Explore our curated selection and find the perfect gifts to delight your loved ones this holiday season.",
             "text_style": "body"
           }
-        },
-        "button_AmwiNk": {
-          "type": "button",
-          "settings": {
-            "button_label": "shop now",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_dEJAi7",
-        "text_xgQCgd",
-        "button_AmwiNk"
+        "text_xgQCgd"
       ],
       "settings": {
         "image": "shopify://shop_images/male-model-posing-outdoors.jpg",
@@ -46,7 +37,10 @@
         "show_text_background": true,
         "color_scheme": "",
         "text_content_position": "bottom-left",
-        "text_align": "left"
+        "text_align": "left",
+        "button_label": "shop now",
+        "button_link": "shopify://collections",
+        "button_style_secondary": false
       }
     }
   },
