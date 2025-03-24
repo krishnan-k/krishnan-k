@@ -97,11 +97,16 @@
   </div>
 </div>
  {% if section.settings.bottom_heading != blank %}
-    <div class="bottom_banner_content color--{{ section.settings.color_bg }} gradient color--{{ section.settings.text_color }} text--align--center">
+    <div class="bottom_banner_content text--align--center">
       {{ section.settings.bottom_heading }}
     </div>
   {% endif %}
-
+{% style %}
+  .bottom_banner_content{
+    background: {{ section.settings.color_bg }};
+    color: {{ section.settings.text_color }};
+  }
+{% endstyle %}
 {% schema %}
 {
   "name": "t:sections.banner.name",
