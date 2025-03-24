@@ -77,26 +77,21 @@
       </div>
 
       <div class="">
-        {% for block in section.blocks %}
-          {% case block.type %}
-            {% when 'button' %}
-              {%- if block.settings.button_label != blank -%}
-                <div class="banner__buttons">
-                  <a
-                    {% if block.settings.button_link %}
-                      href="{{ block.settings.button_link }}"
-                    {% else %}
-                      role="link" aria-disabled="true"
-                    {% endif %}
-                    class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
-                  >
-                    {{- block.settings.button_label | escape -}}
-                    {% render 'icon-right' %}
-                  </a>
-                </div>
-              {%- endif -%}
-          {% endcase %}
-        {% endfor %}
+        {%- if section.settings.button_label != blank -%}
+          <div class="banner__buttons">
+            <a
+              {% if section.settings.button_link %}
+                href="{{ section.settings.button_link }}"
+              {% else %}
+                role="link" aria-disabled="true"
+              {% endif %}
+              class="button {% if section.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
+            >
+              {{- section.settings.button_label | escape -}}
+              {% render 'icon-right' %}
+            </a>
+          </div>
+        {%- endif -%}
       </div>
     </div>
   </div>
@@ -218,7 +213,25 @@
       ],
       "default": "center",
       "label": "t:sections.banner.settings.text_align.label"
-    }
+    },
+    {
+          "type": "text",
+          "id": "button_label",
+          "default": "t:sections.banner.settings.button_label.default",
+          "label": "t:sections.banner.settings.button_label.label",
+          "info": "t:sections.banner.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.banner.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "t:sections.banner.settings.button_style_secondary.label"
+        }
   ],
   "blocks": [
     {
@@ -330,9 +343,6 @@
         },
         {
           "type": "text"
-        },
-        {
-          "type": "button"
         }
       ]
     }
