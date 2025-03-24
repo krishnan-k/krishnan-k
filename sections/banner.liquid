@@ -72,20 +72,23 @@
               <p class="decription">{{ block.settings.text }}</p>
             </div>
           {% when 'button' %}
-            {%- if block.settings.button_label != blank -%}
-              <div class="banner__buttons">
-                <a
-                  {% if block.settings.button_link %}
-                    href="{{ block.settings.button_link }}"
-                  {% else %}
-                    role="link" aria-disabled="true"
-                  {% endif %}
-                  class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
-                >
-                  {{- block.settings.button_label | escape -}}{% render 'icon-right' %}
-                </a>
-              </div>
-            {%- endif -%}
+            <div>
+              {%- if block.settings.button_label != blank -%}
+                <div class="banner__buttons">
+                  <a
+                    {% if block.settings.button_link %}
+                      href="{{ block.settings.button_link }}"
+                    {% else %}
+                      role="link" aria-disabled="true"
+                    {% endif %}
+                    class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
+                  >
+                    {{- block.settings.button_label | escape -}}
+                    {% render 'icon-right' %}
+                  </a>
+                </div>
+              {%- endif -%}
+            </div>
         {% endcase %}
       {% endfor %}
     </div>
