@@ -164,6 +164,13 @@
   .section_banner, .section_banner .banner__content {
     height: 100%;
   }
+  .banner__section .banner__content .banner__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
   .section_banner .banner.banner__section {
     justify-content: end;
     height: 100%;
