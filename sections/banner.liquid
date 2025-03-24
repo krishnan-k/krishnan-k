@@ -72,7 +72,6 @@
               <p class="decription">{{ block.settings.text }}</p>
             </div>
           {% when 'button' %}
-            <div>
               {%- if block.settings.button_label != blank -%}
                 <div class="banner__buttons">
                   <a
@@ -88,7 +87,6 @@
                   </a>
                 </div>
               {%- endif -%}
-            </div>
         {% endcase %}
       {% endfor %}
     </div>
