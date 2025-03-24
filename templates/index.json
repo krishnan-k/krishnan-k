@@ -26,10 +26,10 @@
             "text_style": "body"
           }
         },
-        "buttons_tmBjkj": {
-          "type": "buttons",
+        "button_AmwiNk": {
+          "type": "button",
           "settings": {
-            "button_label": "Button labelsd",
+            "button_label": "shop now",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -38,7 +38,7 @@
       "block_order": [
         "heading_dEJAi7",
         "text_xgQCgd",
-        "buttons_tmBjkj"
+        "button_AmwiNk"
       ],
       "settings": {
         "image": "shopify://shop_images/male-model-posing-outdoors.jpg",
