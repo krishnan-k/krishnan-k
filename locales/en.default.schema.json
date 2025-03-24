@@ -678,6 +678,27 @@
             }
           }
         },
+        "text": {
+          "name": "Text",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Give customers details about the banner image(s) or content on the template."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Body"
+              },
+              "options__2": {
+                "label": "Subtitle"
+              },
+              "options__3": {
+                "label": "Uppercase"
+              },
+              "label": "Style"
+            }
+          }
+        },
       },
       "presets": {
         "name": "Banner"
