@@ -170,6 +170,7 @@
     justify-content: space-between;
     flex-direction: column;
     height: 100%;
+    background: transparent;
   }
   .section_banner .banner.banner__section {
     justify-content: end;
