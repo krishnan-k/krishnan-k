@@ -139,4 +139,7 @@
   .banner__section.banner--large:not(.banner--adapt) {
     min-height: 50rem;
   }
+  .banner.banner__section{
+    justify-content: end;
+  }
 }
