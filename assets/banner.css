@@ -161,7 +161,9 @@
     .banner__section.banner--large:not(.banner--adapt) {
         min-height: 50rem;
     }
-
+  .section_banner{
+    height: 100%;
+  }
     .section_banner .banner.banner__section {
         justify-content: end;
       height: 100%;
