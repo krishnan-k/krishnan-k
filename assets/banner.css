@@ -34,6 +34,15 @@
     word-wrap: break-word;
     z-index: 1;
 }
+.text--align--right{
+  text-align: right;
+}
+.text--align--left{
+  text-align: left;
+}
+.text--align--center{
+  text-align: center;
+}
 @media screen and (min-width: 1400px) {
   .banner__section .banner__content .banner__box {
     max-width: 90rem;
