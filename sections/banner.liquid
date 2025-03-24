@@ -35,8 +35,7 @@
   <div class="logo">
     <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
       {%- if settings.logo != blank -%}
-        {{
-          section.settings.logo | image_url: width: 600 }}
+        {{ section.settings.logo | image_url: width: 600 }}
       {%- else -%}
         <span class="h2">{{ shop.name }}</span>
       {%- endif -%}
