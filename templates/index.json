@@ -41,7 +41,7 @@
         "button_label": "shop now",
         "button_link": "shopify://collections",
         "button_style_secondary": false,
-        "heading": "sustainable, ethically made clothes in sizes xxs to 6xl"
+        "bottom_heading": "sustainable, ethically made clothes in sizes xxs to 6xl"
       }
     }
   },
