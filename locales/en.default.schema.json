@@ -637,6 +637,9 @@
         "button": {
           "content": "Button content"
         },
+        "bottom_bar": {
+          "content": "Bottom notification bar content"
+        },
         "show_text_background":{
           "label":"Text container"
         },
