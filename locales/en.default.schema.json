@@ -640,6 +640,9 @@
         "bottom_bar": {
           "content": "Bottom notification bar content"
         },
+        "heading":{
+          "label":"Heading"
+        },
         "show_text_background":{
           "label":"Text container"
         },
