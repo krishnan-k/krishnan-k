@@ -128,3 +128,15 @@
     padding: 5rem;
 }
 }
+
+@media screen and (max-width: 749px) {
+  .banner__section.banner--small:not(.banner--adapt) {
+    min-height: 30rem;
+  }
+  .banner__section.banner--medium:not(.banner--adapt) {
+    min-height: 40rem;
+  }
+  .banner__section.banner--large:not(.banner--adapt) {
+    min-height: 50rem;
+  }
+}
