@@ -62,16 +62,22 @@
   <div class="banner__content banner__content--{{ section.settings.text_content_position }} page-width {% if section.settings.show_text_background == false %} text_background {% endif %}">
     <div class="banner__box content-container color--{{ section.settings.color_scheme }} gradient text--align--{{ section.settings.text_align }}">
       {% for block in section.blocks %}
-        {% case block.type %}
-          {% when 'heading' %}
-            <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
-              {{ block.settings.heading }}
-            </h2>
-          {% when 'text' %}
-            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <p class="decription">{{ block.settings.text }}</p>
-            </div>
-          {% when 'button' %}
+        <div class="">
+          {% case block.type %}
+            {% when 'heading' %}
+              <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
+                {{ block.settings.heading }}
+              </h2>
+            {% when 'text' %}
+              <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                <p class="decription">{{ block.settings.text }}</p>
+              </div>
+          {% endcase %}
+        </div>
+
+        <div class="">
+          {% case block.type %}
+            {% when 'button' %}
               {%- if block.settings.button_label != blank -%}
                 <div class="banner__buttons">
                   <a
@@ -87,7 +93,8 @@
                   </a>
                 </div>
               {%- endif -%}
-        {% endcase %}
+          {% endcase %}
+        </div>
       {% endfor %}
     </div>
   </div>
